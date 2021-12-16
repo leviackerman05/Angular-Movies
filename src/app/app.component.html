@@ -3,11 +3,5 @@
 <!-- <app-rating (onRating)="handleRating($event)"></app-rating> -->
 
 <div class="container">
-  <h2>In theatres</h2>
-
-  <app-movies-list [movies]="moviesInTheaters"></app-movies-list>
-
-  <h2>Future Releases</h2>
-
-  <app-movies-list [movies]="moviesFutureReleases"></app-movies-list>
+  <router-outlet></router-outlet>
 </div>
